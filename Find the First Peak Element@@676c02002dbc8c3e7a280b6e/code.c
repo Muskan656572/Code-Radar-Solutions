@@ -12,7 +12,7 @@ int main()
             if(arr[i] > arr[i+1]){
                 printf("%d",arr[i]);
             }
-            i++;
+           
             
         }
         else if(i==N-1){
