@@ -7,10 +7,12 @@ int main()
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
+    int find=0;
     for(int i=0;i<N;i++){
         if(i==0){
             if(arr[i] > arr[i+1]){
                 printf("%d",arr[i]);
+                find=1;
                 break;
             }
            
@@ -19,18 +21,20 @@ int main()
         else if(i==N-1){
             if(arr[i] > arr[i-1]){
                 printf("%d",arr[i]);
-                break;
+                find=1;
+                
             }
             
         }
         else{
             if(arr[i-1] < arr[i] && arr[i] > arr[i+1]){
                 printf("%d",arr[i]);
+                find=1;
                 break;
             }
         }
     }
-    if(i==N){
+    if(find==0){
         printf("%d",-1);
     }
     return 0;
