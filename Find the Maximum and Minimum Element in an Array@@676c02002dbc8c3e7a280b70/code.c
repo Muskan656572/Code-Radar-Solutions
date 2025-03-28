@@ -15,7 +15,7 @@ int main()
         }
     }
     printf("%d ",b);
-    int b=arr[0];
+    b=arr[0];
     for(int i=1;i<N;i++){
         if(arr[i] < b){
             b=arr[i];
