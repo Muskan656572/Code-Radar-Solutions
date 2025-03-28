@@ -14,7 +14,7 @@ int main()
                 cnt++;
             }
         }
-        printf("%d %d",arr[i],cnt);
+        printf("\n%d %d",arr[i],cnt);
     }
     return 0;
 }
