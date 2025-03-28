@@ -8,7 +8,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     for(int j=N-1;j>=0;j--){
-        for(int i=0;i<i;i++){
+        for(int i=0;i<j;i++){
             if(arr[i] > arr[j]){
                 int temp=arr[i];
                 arr[i]=arr[j];
