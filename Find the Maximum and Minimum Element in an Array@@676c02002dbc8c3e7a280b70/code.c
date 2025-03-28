@@ -10,14 +10,14 @@ int main()
     }
     int b=arr[0];
     for(int i=1;i<N;i++){
-        if(arr[i] > b){
+        if(arr[i] < b){
             b=arr[i];
         }
     }
     printf("%d ",b);
     b=arr[0];
     for(int i=1;i<N;i++){
-        if(arr[i] < b){
+        if(arr[i] > b){
             b=arr[i];
         }
     }
