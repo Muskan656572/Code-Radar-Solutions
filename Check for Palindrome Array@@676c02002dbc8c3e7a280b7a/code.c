@@ -16,7 +16,7 @@ int main()
         j++;
         k--;
     }
-    if(i==j){
+    if(k==j){
         printf("YES");
     }
     return 0;
