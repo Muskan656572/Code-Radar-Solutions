@@ -17,6 +17,7 @@ int main()
         }
         else{
             find=0;
+            break;
         }
     }
     if(find==1){
