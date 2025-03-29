@@ -24,11 +24,12 @@ int main()
             cnt++;
             find=1;
         }
+        else{
+            printf("%d",1);
+        }
     }
     if(find==1)
         printf("%d",cnt);
-    else{
-        printf("%d",1);
-    }
+
     return 0;
 }
