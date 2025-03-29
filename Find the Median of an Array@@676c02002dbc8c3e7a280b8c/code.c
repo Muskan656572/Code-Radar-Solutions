@@ -19,7 +19,7 @@ int main()
         }
     }
     if(n%2!=0){
-        printf("%d",n/2);
+        printf("%d",arr[n/2]);
     }
     else{
         int avg=arr[(n-1)/2]+arr[(n/2)]/2;
