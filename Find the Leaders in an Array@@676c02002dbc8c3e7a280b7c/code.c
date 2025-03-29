@@ -10,10 +10,10 @@ int main()
     if(n==1){
         printf("%d",arr[0]);
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         int find=0;
         int b=arr[i];
-        for(int j=i+1;j<n;j++){
+        for(int j=i+1;j<n-1;j++){
             if(arr[j] > b){
                 b=arr[j];
                 find=1;
