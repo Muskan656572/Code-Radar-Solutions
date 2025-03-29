@@ -14,10 +14,10 @@ int main()
             ans=(arr[i]>ans)? arr[i]:ans;
             find=1;
         }
+    }
     if(find==1)
         printf("%d",ans);
     else
         printf("%d",-1);
     return 0;
-}
 }
