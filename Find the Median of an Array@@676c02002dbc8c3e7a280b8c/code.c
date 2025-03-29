@@ -22,7 +22,7 @@ int main()
         printf("%d",arr[n/2]);
     }
     else{
-        int avg=(arr[(n-1)/2]+arr[(n/2)])2;
+        int avg=(arr[(n-1)/2]+arr[(n/2)])/2;
         printf("%d",avg);
     }
     return 0;
