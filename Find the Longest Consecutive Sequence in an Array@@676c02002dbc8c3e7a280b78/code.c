@@ -18,10 +18,11 @@ int main()
             i++;
         }
     }
-    int cnt=1;
+    int cnt=1,find=0;
     for(int i=0;i<=N-1;i++){
         if(arr[i]+1 == arr[i+1]){
             cnt++;
+            find=1;
         }
     }
     printf("%d",cnt);
