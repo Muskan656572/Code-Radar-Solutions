@@ -18,6 +18,6 @@ int main()
             }
         }
     }
-
+    printf("%d",arr[n-1]);
     return 0;
 }
