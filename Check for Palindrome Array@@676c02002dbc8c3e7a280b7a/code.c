@@ -8,7 +8,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     int j=0,k=N-1;
-    while(i!=j){
+    while(j!=k){
         if(arr[j] != arr[k]){
             printf("NO");
             break;
