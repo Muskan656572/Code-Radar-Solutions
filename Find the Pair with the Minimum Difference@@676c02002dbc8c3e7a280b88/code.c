@@ -27,8 +27,8 @@ int main()
             num1=arr[i-1];
             num2=arr[i];
         }
-        printf("%d %d",num1,num2);
     }
+    printf("%d %d",num1,num2);
     return 0;
 
 }
