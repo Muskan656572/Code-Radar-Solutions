@@ -1,25 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int n;
-    scanf("%d",&n);
+    int n,k;
+    scanf("%d %d",&n,&k);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int val;
-    scanf("%d",&val);
     int cnt=0;
-    if(n==0){
-        printf("%d",0);
-    }
-    else{
         for(int i=0;i<n;i++){
-            if(arr[i]>val){
+            if(arr[i]>k){
                 cnt++;
             }
         }
-    }
     printf("%d",cnt);
     return 0;
 }
