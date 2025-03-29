@@ -18,10 +18,15 @@ int main()
             i++;
         }
     }
-    if(arr[0] != arr[1]){
-        printf("%d",arr[1]);
+    int find=0;
+    for(int i=0;i<N-1;i++){
+        if(arr[i] != arr[i+1]){
+            printf("%d",arr[i+1]);
+            find=1;
+            break;
+        }
     }
-    else{
+    if(find==0){
         printf("%d",-1);
     }
 
