@@ -7,12 +7,11 @@ int main()
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int val;
+    int val,cnt=0;
     scanf("%d",&val);
-    int cnt=0;
     for(int i=0;i<n;i++){
         if(arr[i]>val){
-            cnt+=1;
+            cnt++;
         }
     }
     printf("%d",cnt);
