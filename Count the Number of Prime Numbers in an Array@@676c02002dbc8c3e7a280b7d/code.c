@@ -7,8 +7,9 @@ int main()
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    int cnt=0,find=0;
+    int cnt=0;
     for(int i=0;i<N;i++){
+        int find=0;
         if(arr[i]==2){
             cnt++;
         }
