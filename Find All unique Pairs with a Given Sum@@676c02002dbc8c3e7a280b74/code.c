@@ -11,10 +11,9 @@ int main()
     scanf("%d",&sum);
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[i]!=arr[i+1]){
-                if(arr[i]+arr[j]==sum){
-                    printf("%d %d\n",arr[i],arr[j]);
-                }
+            if(arr[i]+arr[j]==sum){
+                printf("%d %d\n",arr[i],arr[j]);
+                break;
             }
         }
     }
