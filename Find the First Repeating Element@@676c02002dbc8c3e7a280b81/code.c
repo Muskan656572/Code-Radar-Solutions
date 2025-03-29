@@ -13,8 +13,10 @@ int main()
             if(arr[j]==arr[i]){
                 printf("%d",arr[i]);
                 find=1;
-                break;
             }
+        }
+        if(find==1){
+            break;
         }
     }
     if(find==0){
