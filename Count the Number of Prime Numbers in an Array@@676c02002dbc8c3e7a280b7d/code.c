@@ -13,8 +13,8 @@ int main()
         if(arr[i]==2){
             cnt++;
         }
-        else if(arr[i]==1){
-            continue;
+        else if(arr[i]==1 || arr[i]==0){
+            
         }
         else{
             for(int j=2;j<arr[i];j++){
