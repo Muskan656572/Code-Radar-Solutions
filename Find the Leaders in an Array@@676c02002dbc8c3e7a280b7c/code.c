@@ -11,12 +11,15 @@ int main()
         printf("%d",arr[0]);
     }
     for(int i=0;i<n-1;i++){
+        int find=1;
         for(int j=i+1;j<n;j++){
             if(arr[i] < arr[j]){
+                find=0;
                 break;
             }
         }
-        printf("%d ",arr[i]);
+        if(find==1)
+            printf("%d ",arr[i]);
     }
     printf("%d",arr[n-1]);
     return 0;
