@@ -23,6 +23,7 @@ int main()
     for(int i=1;i<n;i++){
         int diff=arr[i]-arr[i-1];
         if(diff < ans){
+            ans=diff;
             num1=arr[i-1];
             num2=arr[i];
         }
