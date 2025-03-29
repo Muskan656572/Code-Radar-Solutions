@@ -10,7 +10,7 @@ int main()
     int cnt=0;
     for(int i=0;i<N;i++){
         int find=0;
-        if(arr[i]==2){
+        if(arr[i]==2 || arr[i]==1){
             cnt++;
         }
         else{
