@@ -10,6 +10,7 @@ int main()
     if(N==1){
         printf("%d",-1);
     }
+    else{
     for(int j=N-1;j>=0;j--){
         for(int i=0;i<j;i++){
             if(arr[i] > arr[j]){
@@ -18,6 +19,7 @@ int main()
                 arr[j] = temp;
             }
         }
+    }
     }
     printf("%d",arr[N-2]);
 
