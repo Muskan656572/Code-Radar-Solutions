@@ -20,7 +20,7 @@ int main()
         }
     }
     if(find==1){
-        printf("Yes");
+        printf("YES");
     }
     else{
         printf("NO");
