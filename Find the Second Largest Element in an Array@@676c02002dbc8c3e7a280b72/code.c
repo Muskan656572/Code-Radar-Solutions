@@ -20,7 +20,6 @@ int main()
             }
         }
     }
-    }
     printf("%d",arr[N-2]);
-
+    }
 }
