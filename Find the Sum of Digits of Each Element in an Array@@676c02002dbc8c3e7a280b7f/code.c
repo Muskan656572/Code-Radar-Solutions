@@ -11,7 +11,7 @@ int main()
         int z=arr[i];
         int sum=0;
         if(z<0){
-            z=z+2*z;
+            z=-z;
         }
         while(z!=0){
             int r=z%10;
