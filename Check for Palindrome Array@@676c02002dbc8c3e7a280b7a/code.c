@@ -7,16 +7,17 @@ int main()
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    int j=0,k=N-1;
+    int j=0,k=N-1,find=1;
     while(j!=k){
         if(arr[j] != arr[k]){
             printf("NO");
+            find=0;
             break;
         }
         j++;
         k--;
     }
-    if(k==j){
+    if(find){
         printf("YES");
     }
     return 0;
