@@ -10,12 +10,13 @@ int main()
     int k;
     scanf("%d",&k);
     for(int z=0;z<k;z++){
-        for(int i=N-1;i>=0;i--){
-            for(int j=0;j<i;j++){
-                int temp=arr[i];
-                arr[i]=arr[j];
-                arr[j]=temp;
-            }
+        int i=N-1;
+        int j=0;
+        while(i!=j){
+            int temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+            j++;
         }
     }
     for(int i=0;i<N;i++){
