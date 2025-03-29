@@ -20,6 +20,12 @@ int main()
             }
         }
     }
-    printf("%d",arr[N-2]);
+    if(arr[N-2]!=arr[N-1])
+    {
+        printf("%d",arr[N-2]);
+    }
+    else{
+        printf("%d",-1);
+    }
     }
 }
