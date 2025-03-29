@@ -19,17 +19,13 @@ int main()
         }
     }
     int cnt=1,find=0;
-    for(int i=0;i<N;i++){
+    for(int i=0;i<=N-1;i++){
         if(arr[i]+1 == arr[i+1]){
             cnt++;
             find=1;
         }
-        else{
-            printf("%d",1);
-        }
     }
-    if(find==1)
-        printf("%d",cnt);
+    printf("%d",cnt);
 
     return 0;
 }
