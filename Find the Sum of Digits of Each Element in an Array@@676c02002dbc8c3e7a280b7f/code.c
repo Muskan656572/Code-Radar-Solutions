@@ -9,14 +9,14 @@ int main()
     }
     for(int i=0;i<n;i++){
         int z=arr[i];
-        int sum=0,x;
+        int sum=0;
         if(z<0){
-            x=z+2*z;
+            z=z+2*z;
         }
-        while(x!=0){
-            int r=x%10;
+        while(z!=0){
+            int r=z%10;
             sum+=r;
-            x=x/10;
+            z=z/10;
         }
         printf("%d ",sum);
     }
