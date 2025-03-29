@@ -10,13 +10,13 @@ int main()
     if(n==1){
         printf("%d",arr[0]);
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[j] <= arr[i]){
-                printf("%d ",arr[i]);
+            if(arr[i] < arr[j]){
                 break;
             }
         }
+        printf("%d ",arr[i]);
     }
     printf("%d",arr[n-1]);
     return 0;
