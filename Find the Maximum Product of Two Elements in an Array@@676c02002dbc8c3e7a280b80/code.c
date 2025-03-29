@@ -11,7 +11,7 @@ int main()
     int ans=INT_MIN;
     for(int i=0;i<n-1;i++){
         int pro=arr[i]*arr[i+1];
-        ans=max(pro,ans);
+        ans=(pro>ans):ans:pro;
     }
     printf("%d",ans);
     return 0;
