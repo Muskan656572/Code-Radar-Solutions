@@ -11,6 +11,9 @@ int main()
     for(int i=0;i<N;i++)
     {
         int z=arr[i];
+        if(z<0){
+            z=-z;
+        }
         int rev=0;
         while(z!=0){
             int r=z%10;
