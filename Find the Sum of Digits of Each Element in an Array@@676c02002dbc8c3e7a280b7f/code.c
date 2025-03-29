@@ -9,9 +9,9 @@ int main()
     }
     for(int i=0;i<n;i++){
         int z=arr[i];
-        int sum=0;
+        int sum=0,x;
         if(z<0){
-            int x=z+2*z;
+            x=z+2*z;
         }
         while(x!=0){
             int r=x%10;
